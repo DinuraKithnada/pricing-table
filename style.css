@@ -60,9 +60,7 @@ body {
       color: #26355D;
       padding: 8px 16px;
       margin: 10px 10px 10px 10px;
-      transition: background-color 0.5s;
-      transition: color 0.5s;
-      transition: border 0.5s;
+      transition: background-color 1s;
     }
     .plan-button:hover{
       background-color: #26355D;
