@@ -60,6 +60,14 @@ body {
       color: #26355D;
       padding: 8px 16px;
       margin: 10px 10px 10px 10px;
+      transition: background-color 0.5s;
+      transition: color 0.5s;
+      transition: border 0.5s;
+    }
+    .plan-button:hover{
+      background-color: #26355D;
+      color: #6AD4DD;
+      border: 1px solid #26355D;
     }
 
     /* Hint: What can you do with a media query and flexbox? */
@@ -76,5 +84,3 @@ body {
         min-width: 300px;
         min-height: 375px;
       }
-
-    }
